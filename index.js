@@ -177,12 +177,11 @@ function scoreboard(getInningScore, inning, numInnings) {
   }
 
   scores.push(final);
-
+  
   return scores;
 
 }
 
-console.log(scoreboard(getInningScore, inning, 9));
 
 
 
